@@ -6,3 +6,6 @@ node_modules
 
 # any logs
 logs
+
+# environment variables
+.env
