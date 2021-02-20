@@ -1,9 +1,13 @@
 import express from 'express';
+import morgan from 'morgan';
 import compress from 'compression';
 import helmet from 'helmet';
-import routes from '../API/routes/v1';
+import routes from '../API/routes';
 
 const app = express();
+
+// request logging. dev: console | production: file
+app.use(morgan('dev'));
 
 // gzip compression
 app.use(compress());

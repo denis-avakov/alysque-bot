@@ -3,3 +3,6 @@
 
 # node.js dependencies
 node_modules
+
+# any logs
+logs
