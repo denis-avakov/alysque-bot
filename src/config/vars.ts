@@ -4,5 +4,6 @@ require('dotenv-safe').config();
 export default {
   env: process.env.NODE_ENV,
   port: process.env.PORT,
-  logsFormat: process.env.NODE_ENV === 'production' ? 'combined' : 'dev'
+  logsFormat: process.env.NODE_ENV === 'production' ? 'combined' : 'dev',
+  databaseURL: process.env.FIREBASE_DATABASE_URL
 };

@@ -9,3 +9,6 @@ logs
 
 # environment variables
 .env
+
+# google credentials
+service-account.json
