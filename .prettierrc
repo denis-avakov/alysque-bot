@@ -2,6 +2,5 @@
   "printWidth": 100,
   "singleQuote": true,
   "quoteProps": "consistent",
-  "trailingComma": "none",
-  "endOfLine": "crlf"
+  "trailingComma": "none"
 }
