@@ -3,7 +3,8 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "dev": "ts-node-dev --respawn --clear src/index.ts",
-    "eslint": "eslint src/**/*.{js,ts,tsx}"
+    "eslint": "eslint src/**/*.{js,ts,tsx}",
+    "editorconfig": "editorconfig-checker"
   },
   "dependencies": {
     "compression": "^1.7.4",
@@ -20,6 +21,7 @@
     "@types/morgan": "^1.9.2",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
+    "editorconfig-checker": "^4.0.1",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
