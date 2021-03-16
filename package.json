@@ -3,7 +3,7 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "dev": "ts-node-dev --respawn --clear src/index.ts",
-    "eslint": "eslint */**/*.{js,ts,tsx}"
+    "eslint": "eslint src/**/*.{js,ts,tsx}"
   },
   "dependencies": {
     "compression": "^1.7.4",
