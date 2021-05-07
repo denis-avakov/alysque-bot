@@ -9,6 +9,7 @@ logs
 
 # environment variables
 .env
+.npmrc
 
 # google credentials
 service-account.json
