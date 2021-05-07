@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
+    "start": "echo \"@todo: create a build script\" && exit 1",
     "dev": "ts-node-dev --respawn --clear src/index.ts",
     "eslint": "eslint src/**/*.{js,ts,tsx}",
     "editorconfig": "editorconfig-checker"
