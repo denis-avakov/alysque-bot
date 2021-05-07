@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    container_name: alysque-bot
+    volumes:
+      - ./:/home/node/app/alysque-bot
+    environment:
+      - DOPPLER_TOKEN=${DOPPLER_TOKEN}
+    restart: unless-stopped
+    ports:
+      - "8080:3000"
